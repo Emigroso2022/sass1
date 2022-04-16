@@ -4,7 +4,11 @@ footer {
     padding: 20px 0;
     margin-top: 80px;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
+    p{
+      @extend .paragraph ;
+      
+    }
   }
 
   @media (max-width: 400px) {
@@ -13,6 +17,8 @@ footer {
       height: auto;
       flex-direction: column;
     }
+
+    
   }
 
   
